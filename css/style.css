@@ -1,0 +1,94 @@
+body {
+    padding-top: 56px;
+    background-color: #f7f2e7; /* Warm, light background color */
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #d4a373; /* Warm, brown color for the navbar */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.navbar:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+}
+
+.nav-link {
+    color: #fff !important; /* White text for navbar links */
+}
+
+.navbar-brand {
+    color: #fff !important; /* White text for navbar brand */
+}
+
+.nav-link.box {
+    background-color: #d4a373; /* Matching color for the nav links */
+    margin-right: 10px; /* Space between nav links */
+    padding: 10px 20px; /* Padding for nav links */
+    border-radius: 5px; /* Rounded corners for nav links */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-link.box:hover {
+    background-color: #c4955f; /* Slightly darker shade on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+}
+
+.container {
+    background-color: #fff; /* White background for the main container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+}
+
+.card {
+    background-color: #e6ccb2; /* Light brown card background */
+    border: 1px solid #ddd; /* Border for cards */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between cards */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #333; /* Darker text color for better readability */
+}
+
+.card-info {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.about-container {
+    background-color: #fff; /* White background for the about section */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 20px;
+}
+
+.about-container h2 {
+    color: #333;
+}
+
+.about-container p {
+    color: #555;
+}
+
+.about-container a {
+    color: #c4955f;
+    text-decoration: none;
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+}
